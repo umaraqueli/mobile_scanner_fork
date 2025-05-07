@@ -16,8 +16,8 @@ An universal scanner for Flutter based on MLKit.
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
   s.dependency 'GoogleMLKit/BarcodeScanning', '~> 6.0.0'
-  s.dependency 'GoogleUtilities/UserDefaults', '>= 7.13.0'
-  s.dependency 'GoogleUtilities/Logger', '>= 7.13.0'
+  s.dependency 'GoogleUtilities/UserDefaults', '~> 7.8'
+  s.dependency 'GoogleUtilities/Logger', '~> 7.12'  
   s.platform = :ios, '11.0'
   s.static_framework = true
   # Flutter.framework does not contain a i386 slice.
